@@ -30,6 +30,10 @@ cc.Class({
 
 
     },
+    editor: {
+        requireComponent: sp.Skeleton
+    },
+
 
     // use this for initialization
     onLoad: function () {
