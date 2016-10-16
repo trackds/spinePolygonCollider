@@ -59,7 +59,7 @@ cc.Class({
         this.transformCollider();
     },
 
-    transformCollider: function(boundingBox, collider) {
+    transformCollider: function() {
         var vertices = this._BoundingBox.vertices;
         var points = this.collider.points;
         var rotat = Math.PI*this.bone.worldRotation/180;
